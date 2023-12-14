@@ -1,14 +1,14 @@
 {
-  "scripts": {
-    "demo": "webpack && open index.html"
-  },
-  "devDependencies": {
-    "@babel/core": "7.4.0",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
-  },
-  "dependencies": {
-    "@babel/preset-env": "7.4.2",
-    "babel-loader": "8.0.5"
-  }
+    "scripts": {
+        "start": "webpack && open index.html"
+    },
+    "devDependencies": {
+        "@babel/core": "7.4.0",
+        "webpack": "^4.17.1",
+        "webpack-cli": "^3.1.0"
+    },
+    "dependencies": {
+        "@babel/preset-env": "7.4.2",
+        "babel-loader": "8.0.5"
+    }
 }
